@@ -4,14 +4,19 @@ header{
     color: pink;
     display: flex;
     justify-content: space-between;
+
     align-items: center;
+    position: fixed;
+}
+
+header>p{
+    padding-left: 50px;
 }
 .menu {
     list-style: none;
-    
     display: flex;
     align-items: center;
-
+    padding-right: 50px;
 }
 li{
     padding-right: 10px;
